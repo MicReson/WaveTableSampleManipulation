@@ -2204,7 +2204,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 640.5, 1022.0, 73.0, 20.0 ],
+					"patching_rect" : [ 724.135590553283691, 1023.0, 73.0, 20.0 ],
 					"text" : "Safety First!"
 				}
 
@@ -2216,8 +2216,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 337.5, 1022.0, 297.0, 22.0 ],
-					"text" : "limi~ 2 512 @dcblock 1 @threshold -0.3 @release 10."
+					"patching_rect" : [ 337.5, 1022.0, 378.0, 22.0 ],
+					"text" : "limi~ 2 512 @dcblock 1 @threshold -0.3 @release 10. @lookahead 5"
 				}
 
 			}
